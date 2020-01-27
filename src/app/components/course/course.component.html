@@ -1,0 +1,12 @@
+<tr routerLink="/info/{{index}}">
+    <td><img src="{{course.image}}"></td>
+    <!-- <td>{{course.name}}</td>
+    <td>{{course.ECTS}}</td>
+    <td>{{course.semester}}</td>
+    <td>{{course.form}}</td>
+    <td>{{course.maxStudents}}</td> -->
+    <td>{{course.description}}</td>
+    <!-- <td>{{course.sumPoints/course.sumVotes}}</td> -->
+    <td><button (click)="onDelete()" class="del">remove</button></td>
+</tr>
+<br>

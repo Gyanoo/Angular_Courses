@@ -1,0 +1,113 @@
+[
+    {
+        "name": "algorytmy i struktury danych",
+        "ECTS": 6,
+        "semester": 2,
+        "form": "ćwiczenia",
+        "maxStudents": 200,
+        "sumPoints": 0,
+        "sumVotes": 0,
+        "description": "Przedmiot zapoznaje studentów z podstawowymi algorytmami, strukturami danych, oraz metodami tworzenia i analizy algorytmów.",
+        "image": "https://i.udemycdn.com/course/240x135/816152_f28c_3.jpg"
+
+        },
+    {
+        "name": "analiza matematyczna I",
+        "ECTS": 6,
+        "semester": 1,
+        "form": "ćwiczenia",
+        "maxStudents": 200,
+        "sumPoints": 0,
+        "sumVotes": 0,
+        "description": "W ramach zajęć student powinien opanować podstawy rachunku różniczkowego i całkowego funkcji jednej zmiennej wraz z przykładowymi zastosowaniami.",
+        "image": "https://i.ytimg.com/vi/Kp2bYWRQylk/maxresdefault.jpg"
+        },
+    {
+        "name": "analiza matematyczna II",
+        "ECTS": 6,
+        "semester": 2,
+        "form": "ćwiczenia",
+        "maxStudents": 200,
+        "sumPoints": 0,
+        "sumVotes": 0,
+        "description": "Rozszerzenie pojęć z analizy I, rachunek rózniczkowy i całkowy wielu zmiennych",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoEDxTZAQK7zKSxqDDKGpQIaN6fmaykNaB2aFf0s7N6KBsv5rz&s"
+        },
+    {
+        "name": "Wprowadzenie do systemu UNIX",
+        "ECTS": 4,
+        "semester": 1,
+        "form": "labolatoria",
+        "maxStudents": 150,
+        "sumPoints": 0,
+        "sumVotes": 0,
+        "description": "Celem modułu jest wyposażenie studenta/studentki w umiejętność korzystania z systemu operacyjnego UNIX i na nim bazujących wykorzystując wiedzę o jego budowie i umiejętności praktyczne.",
+        "image": "https://cdn.devdojo.com/posts/images/June2019/executing-bash-script-on-multiple-remote-server.jpg?auto=compress&w=960&dpr=2"
+        },
+        {
+        "name": "Matematyka dyskretna",
+        "ECTS": 5,
+        "semester": 1,
+        "form": "ćwiczenia",
+        "maxStudents": 200,
+        "sumPoints": 0,
+        "sumVotes": 0,
+        "description": "Zapoznanie z podstawowymi pojęciami, metodami oraz problemami matematyki dyskretnej pod kątem zastosowań w modelowaniu systemów informatycznych. ",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Hamiltonian_path.svg/1200px-Hamiltonian_path.svg.png"
+        },
+        {
+        "name": "Fizyka 1",
+        "ECTS": 6,
+        "semester": 2,
+        "form": "ćwiczenia",
+        "maxStudents": 200,
+        "sumPoints": 0,
+        "sumVotes": 0,
+        "description": "Słuchacz jest zorientowany w zagadnieniach fizyki klasycznej, obejmujących mechanikę, termodynamikę i elektromagnetyzm. Rozumie powiązanie fizyki z rozwiązaniami technologicznymi.",
+        "image": "http://www.blundells.org/images/topcont/ac_physics_cartoon.jpg"
+        },
+        {
+        "name": "Programowanie obiektowe",
+        "ECTS": 3,
+        "semester": 3,
+        "form": "labolatoria",
+        "maxStudents": 180,
+        "sumPoints": 0,
+        "sumVotes": 0,
+        "description": "Celem zajęć jest zaznajomienie studentów z paradygmatem programowania obiektowym. Studenci poznają techniki takie jak: dziedziczenie, delegowanie, ukrywanie implementacji",
+        "image": "https://download.komputerswiat.pl/media/2016/294/2308615/java_s.jpg"
+        },
+        {
+        "name": "Podstawy baz danych",
+        "ECTS": 6,
+        "semester": 3,
+        "form": "labolatoria",
+        "maxStudents": 180,
+        "sumPoints": 0,
+        "sumVotes": 0,
+        "description": "Zaprezentowanie podstaw teorii baz danych ze szczególnym uwzględnieniem modelu relacyjnego. Przedstawienie całościowego procesu projektowania i implementacji struktury baz danych.",
+        "image": "https://www.computerhope.com/jargon/d/database.jpg"
+        },
+        {
+        "name": "Systemy operacyjne",
+        "ECTS": 5,
+        "semester": 4,
+        "form": "labolatoria",
+        "maxStudents": 160,
+        "sumPoints": 0,
+        "sumVotes": 0,
+        "description": "Student ma uporządkowaną wiedzę w zakresie systemów operacyjnych, zasad ich działania, podstawowych problemów związanych z zarządzaniem zasobami systemu komputerowego i algorytmów ich rozwiązywania",
+        "image": "https://www.howtogeek.com/wp-content/uploads/2018/08/img_5b68e80f77e33.png"
+        },
+        {
+        "name": "Podstawy sztucznej inteligencji",
+        "ECTS": 3,
+        "semester": 5,
+        "form": "labolatoria",
+        "maxStudents": 120,
+        "sumPoints": 0,
+        "sumVotes": 0,
+        "description": "Zajęcia poruszające temat sztucznej inteligencji, modelowanie i inynieria wiedzy na temat AI",
+        "image": "https://www.surveycto.com/wp-content/uploads/2018/04/ai-and-dev.jpg"
+        }
+]

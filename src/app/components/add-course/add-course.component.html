@@ -1,0 +1,12 @@
+<h3>Add new course</h3>
+<form class="form" (ngSubmit)="onSubmit()">
+    <input type="text" name="image" [(ngModel)]="image" placeholder="Image">
+    <input type="text" name="name" [(ngModel)]="name" placeholder="Name">
+    <input type="text" name="ECTS" [(ngModel)]="ECTS" placeholder="ECTS">
+    <input type="text" name="semester" [(ngModel)]="semester" placeholder="semester">
+    <input type="text" name="form" [(ngModel)]="form" placeholder="form">
+    <input type="text" name="maxStudent" [(ngModel)]="maxStudents" placeholder="maxStudents">
+    <input type="text" name="rate" [(ngModel)]="rate" placeholder="rate">
+    <input type="text" name="description" [(ngModel)]="description" placeholder="description">
+    <input type="submit" value="Submit" class="btn">
+</form>

@@ -1,0 +1,33 @@
+<!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch">Szukaj!</button> -->
+<!-- <h4>Co mam dla Ciebie znaleźć</h4> -->
+<div class="collapse" id="collapseSearch">
+    <input [(ngModel)]="searchName" placeholder="podaj nazwe którą chcesz wyszukać" class="form-control">
+    <input [(ngModel)]="searchEcts" placeholder="podaj ilosc ECTS którą chcesz wyszukać" class="form-control">
+    <input [(ngModel)]="searchSemester" placeholder="podaj semestr który chcesz wyszukać" class="form-control">
+</div>
+
+<!-- <table>
+    <tr>
+        <th>logo</th>
+        <th>name</th>
+        <th>ECTS</th>
+        <th>semester</th>
+        <th>form</th>
+        <th>maxStudents</th>
+        <th>description</th>
+        <th>rate</th>
+        <th>remove</th>
+    </tr>
+</table> -->
+
+<table>
+    <app-course
+        *ngFor="let course of (courses | nameFilterPipe : searchName | ECTSFilterPipe : searchEcts | semesterFilterPipe : searchSemester); let i = index"
+        [course]="course"
+        [index]="i"
+        (deleteCourse)="deleteCourse($event)"
+        >
+    </app-course>
+<table>
+
+<app-add-course></app-add-course>

@@ -1,0 +1,18 @@
+<!-- <tr> -->
+    <!-- <h3><img src="assets/img/logo.png"></h3> -->
+<div> 
+    <h3>Nazwa kursu: {{course.name}}</h3>
+    <h3>Liczba punktów ECTS za kurs: {{course.ECTS}}</h3>
+    <h3>Semestr na którym odbywa się kurs: {{course.semester}}</h3>
+    <h3>Forma w jakiej odbywa sie kurs: {{course.form}}</h3>
+    <h3>Maksymalna liczba studentów mogąca uczestniczyć w kursie:{{course.maxStudents}}</h3>
+    <h3>Opis kursu: {{course.description}}</h3>
+    <h3>Aktualna ocena kursu: {{course.sumPoints/course.sumVotes}}</h3>
+<!-- </tr> -->
+<br>
+<form (ngSubmit)="updateCourse()">
+    <h3>Dodaj swoją ocenę kursu!</h3>
+    <input type="number" name="rate" [(ngModel)]="rate">
+    <input type="submit" value="rateMe" class="btn btn-info">
+</form>
+</div>
